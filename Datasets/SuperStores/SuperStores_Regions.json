@@ -1,0 +1,547 @@
+[
+  {
+    "region_id": 1,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 2,
+    "sales_district": "Mexico City",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 3,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 4,
+    "sales_district": "Guadalajara",
+    "sales_region": "Mexico West"
+  },
+  {
+    "region_id": 5,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 6,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 7,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 8,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 9,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 10,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 11,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 12,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 13,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 14,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 15,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 16,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 17,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 18,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 19,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 20,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 21,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 22,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 23,
+    "sales_district": "Salem",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 24,
+    "sales_district": "Orizaba",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 25,
+    "sales_district": "Hidalgo",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 26,
+    "sales_district": "Marida",
+    "sales_region": "Mexico South"
+  },
+  {
+    "region_id": 27,
+    "sales_district": "Camacho",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 28,
+    "sales_district": "Acapulco",
+    "sales_region": "Mexico West"
+  },
+  {
+    "region_id": 29,
+    "sales_district": "Acapulco",
+    "sales_region": "Mexico West"
+  },
+  {
+    "region_id": 30,
+    "sales_district": "Tlaxiaco",
+    "sales_region": "Mexico South"
+  },
+  {
+    "region_id": 31,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 32,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 33,
+    "sales_district": "San Diego",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 34,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 35,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 36,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 37,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 38,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 39,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 40,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 41,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 42,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 43,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 44,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 45,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 46,
+    "sales_district": "San Francisco",
+    "sales_region": "Central West"
+  },
+  {
+    "region_id": 47,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 48,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 49,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 50,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 51,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 52,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 53,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 54,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 55,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 56,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 57,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 58,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 59,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 60,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 61,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 62,
+    "sales_district": "Los Angeles",
+    "sales_region": "South West"
+  },
+  {
+    "region_id": 63,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 64,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 65,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 66,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 67,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 68,
+    "sales_district": "Portland",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 69,
+    "sales_district": "Salem",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 70,
+    "sales_district": "Salem",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 71,
+    "sales_district": "Salem",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 72,
+    "sales_district": "Salem",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 73,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 74,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 75,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 76,
+    "sales_district": "Bremerton",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 77,
+    "sales_district": "Bremerton",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 78,
+    "sales_district": "Bellingham",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 79,
+    "sales_district": "Bellingham",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 80,
+    "sales_district": "Bellingham",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 81,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 82,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 83,
+    "sales_district": "Seattle",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 84,
+    "sales_district": "Tacoma",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 85,
+    "sales_district": "Tacoma",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 86,
+    "sales_district": "Tacoma",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 87,
+    "sales_district": "Spokane",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 88,
+    "sales_district": "Walla Walla",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 89,
+    "sales_district": "Yakima",
+    "sales_region": "North West"
+  },
+  {
+    "region_id": 90,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 91,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 92,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 93,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 94,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 95,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 96,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 97,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 98,
+    "sales_district": "Vancouver",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 99,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 100,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 101,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 102,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 103,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 104,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 105,
+    "sales_district": "Victoria",
+    "sales_region": "Canada West"
+  },
+  {
+    "region_id": 106,
+    "sales_district": "Mexico City",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 107,
+    "sales_district": "Mexico City",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 108,
+    "sales_district": "Mexico City",
+    "sales_region": "Mexico Central"
+  },
+  {
+    "region_id": 109,
+    "sales_district": "Mexico City",
+    "sales_region": "Mexico Central"
+  }
+]

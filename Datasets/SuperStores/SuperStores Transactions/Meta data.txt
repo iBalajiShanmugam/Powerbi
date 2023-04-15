@@ -1,0 +1,15 @@
+
+The Superstore Transaction table contains data related to the transactions made at a retail superstore. The six columns in this table include transaction date, stock date, product ID, customer ID, store ID, and quantity.
+
+The transaction date refers to the date when the transaction took place, whereas the stock date represents the date when the product was added to the store's inventory. The product ID is a unique identifier for each product sold in the store, and the customer ID is a unique identifier for each customer who made a purchase.
+
+The store ID represents the ID of the store where the transaction took place, and the quantity column indicates the number of items purchased in the transaction.
+
+Overall, this table contains important information that can be used to analyze sales trends, customer behavior, and inventory management at the superstore.
+
+column 1 - transaction_date
+column 2 - stock_date
+column 3 - product_id
+column 4 - customer_id
+column 5 - store_id
+column 6 - quantity
