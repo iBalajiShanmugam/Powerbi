@@ -4,7 +4,7 @@ This repository contains multiple projects, each located in a separate folder, f
 
 ## Projects
 
-1. [Space Mission Analysis](project/Space_Mission/)
+1. [Space Mission Analysis](projects/Space_Mission/)
    - This project explores data related to space missions, including launches, spacecraft, and missions. It visualizes key metrics and provides insights into various aspects of space exploration.
 
 2. [Pizza Sales Analysis](projects/Pizza_Sales/)
