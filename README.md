@@ -4,13 +4,13 @@ This repository contains multiple projects, each located in a separate folder, f
 
 ## Projects
 
-1. [Space Mission Analysis](space-mission/)
+1. [Space Mission Analysis](project/Space_Mission/)
    - This project explores data related to space missions, including launches, spacecraft, and missions. It visualizes key metrics and provides insights into various aspects of space exploration.
 
-2. [Pizza Sales Analysis](pizza-sales-analysis/)
+2. [Pizza Sales Analysis](projects/Pizza_Sales/)
    - In this project, we analyze pizza sales data to gain insights into customer preferences, popular toppings, sales trends, and regional variations. The visualizations help understand the pizza market and make data-driven decisions.
 
-3. [USA Hospital Analysis](usa-hospital-analysis/)
+3. [USA Hospital Analysis](projects/Hospital_report/)
    - The USA Hospital Analysis project focuses on healthcare data and provides insights into hospital performance, patient demographics, medical procedures, and quality of care. It helps identify areas for improvement and optimize hospital operations.
 
 4. [Adventure Sales Analysis](projects/Adventure%20Work/)
