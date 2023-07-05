@@ -13,7 +13,7 @@ This repository contains multiple projects, each located in a separate folder, f
 3. [USA Hospital Analysis](usa-hospital-analysis/)
    - The USA Hospital Analysis project focuses on healthcare data and provides insights into hospital performance, patient demographics, medical procedures, and quality of care. It helps identify areas for improvement and optimize hospital operations.
 
-4. [Adventure Sales Analysis](projects/Adventure Work/)
+4. [Adventure Sales Analysis](projects/Adventure%20Work/)
    - This project analyzes sales data from an adventure sports company. It examines sales performance, revenue trends, customer segments, and marketing effectiveness. The visualizations aid in identifying growth opportunities and optimizing sales strategies.
 
 ## How to Use
