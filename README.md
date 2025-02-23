@@ -94,10 +94,79 @@ A data model organizes related tables into a structured format to improve analys
 
 ---
 
+# Visualizing Data with Dashboards
+
+## Power BI Report View
+Report View is where users create visualizations and dashboards to present insights.
+
+### Goals for this Section:
+- Insert various chart types and tables.
+- Customize reports with filters and interactivity.
+- Enhance reports with advanced visualization techniques.
+
+### Common Visuals and Their Applications
+| Visual Type             | Purpose                                         | When to Use                                                                                                         |
+|-------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Bar & Column Charts** | Compare categorical data.                       | Ideal for comparing discrete categories or showcasing rankings. Bar charts are best for horizontal comparisons, while column charts are suited for vertical data representation. |
+| **Line Charts**         | Display trends over time.                       | Use to illustrate data trends over continuous intervals, such as monthly sales figures, to identify patterns and forecast future values. |
+| **Pie & Donut Charts**  | Show proportions.                               | Effective for depicting parts of a whole, such as market share distribution. Best used with a limited number of categories to maintain readability. |
+| **Tables & Matrices**   | Present detailed numeric data.                  | Suitable when exact values are necessary, allowing users to view detailed information and perform precise analysis. |
+| **Geographic Maps**     | Visualize spatial data.                         | Utilize to represent data across different geographies, such as regional sales performance, providing spatial context to the data. |
+| **Scatter Charts**      | Show relationships between two variables.       | Employ to identify correlations, distributions, and outliers between two continuous variables, such as analyzing the relationship between advertising spend and sales revenue. |
+| **Heat Maps**           | Represent data in a matrix form with colors.    | Ideal for showing the magnitude of data and spotting patterns across two categorical variables, such as website traffic by day and time. |
+| **KPI Visuals**         | Highlight key performance indicators.           | Employ to display critical metrics that measure performance against targets, such as monthly revenue goals, providing at-a-glance insights into business health. |
+| **Treemaps**            | Display hierarchical data.                      | Use to represent data with hierarchical structures, such as sales by product category and subcategory, offering a compact visualization of part-to-whole relationships. |
+| **Waterfall Charts**    | Show cumulative effect of sequential values.    | Effective for visualizing how an initial value is influenced by a series of positive and negative changes, such as in financial statements to depict profit and loss components. |
+
+### Enhancing Reports with Interactive Features
+
+#### Bookmarks
+Bookmarks in Power BI capture the current state of a report page, including filters, slicers, and the visibility of visuals. They allow users to create navigational buttons and design interactive storytelling experiences within reports.
+
+#### Visual Interactions
+Visual interactions define how visuals on a report page influence each other. Configuring interactions ensures that selections in one visual affect others appropriately, providing a cohesive data exploration experience.
+
+#### Custom Tooltips
+Custom tooltips enhance the data exploration experience by providing additional context when users hover over a visual's data point. Instead of default tooltips showing basic information, custom tooltips can display detailed data, visuals, or even entire report pages.
+
+#### Parameters
+Parameters in Power BI allow users to input values that can dynamically change report visuals and calculations. They enable the creation of what-if scenarios and interactive data exploration.
+
+#### Drillthrough Filters
+Drillthrough filters allow users to click on a specific data point and navigate to a detailed report page filtered by that selection. This is useful for providing deep insights into specific aspects of the data.
+
+#### Drill Up and Drill Down
+Drill up and drill down capabilities in Power BI allow users to explore hierarchical data in a structured way. Users can click on a visual to move deeper into a hierarchy or return to higher-level data views.
+
+### Deep Dive into Conditional Formatting
+Conditional formatting in Power BI enables users to apply different formatting styles (colors, icons, data bars) based on the values in a dataset. This makes it easier to highlight trends, outliers, and key insights.
+
+**Types of Conditional Formatting:**
+- **Color Scales:** Apply a gradient of colors to indicate values from low to high.
+- **Data Bars:** Display bars within a cell to represent relative values visually.
+- **Icons:** Use symbols to indicate data conditions, such as up/down arrows for trends.
+- **Rules-Based Formatting:** Define specific thresholds to apply different styles based on set conditions.
+
+### Best Practices
+- **Implement Consistent Color Schemes:** Ensure that colors are used consistently to represent the same categories across different visuals for coherence.
+- **Optimize Visuals for Performance:** Limit the number of visuals on a single report page to enhance load times and responsiveness.
+- **Use Interactive Elements:** Incorporate slicers, drill-throughs, and tooltips to make reports more interactive and user-friendly.
+- **Avoid Clutter:** Focus on key metrics and avoid overloading dashboards with too many visuals, which can overwhelm the audience.
+- **Provide Context:** Use titles, labels, and legends effectively to provide context and make the visuals self-explanatory.
+
+### Pro Tips
+- **Leverage Conditional Formatting:** Apply color scales, icons, and data bars to highlight key insights dynamically.
+- **Utilize Bookmarks and Drillthroughs:** Create bookmarks and drillthrough pages to enable users to navigate and explore data dynamically.
+- **Apply Hierarchies for Drill-Downs:** Organize data into hierarchies to allow users to drill down into more detailed views.
+- **Use Custom Visuals:** Explore Power BI's marketplace for custom visuals that can provide more advanced or specialized chart types.
+- **Stay Updated with Power BI Features:** Regularly update your knowledge of Power BI's features and functionalities to take advantage of new visualization options and improvements.
+
+---
+
 # Calculating Measures with DAX
 
 ## What is DAX?
-DAX (Data Analysis Expressions) is a formula language used in Power BI for data modeling and analysis.
+DAX (Data Analysis Expressions) is a formula language used in Power BI for data modeling and analysis. It enables users to create calculated columns, measures, and custom aggregations for deep data insights.
 
 ### Key DAX Concepts
 | Concept | Description |
@@ -107,6 +176,78 @@ DAX (Data Analysis Expressions) is a formula language used in Power BI for data 
 | Row Context | Evaluates each row separately. |
 | Filter Context | Adjusts results based on applied filters. |
 
+### Operators in DAX
+| Operator Type | Example | Description |
+|--------------|---------|-------------|
+| Arithmetic | +, -, *, /, % | Performs mathematical operations. |
+| Comparison | =, <>, <, >, <=, >= | Compares values and returns TRUE or FALSE. |
+| Logical | && (AND), || (OR), NOT | Evaluates logical conditions. |
+| String | & | Concatenates text values. |
+
+### Common DAX Functions
+
+#### Aggregation Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| SUM | SUM(column) | Returns the sum of a column. |
+| AVERAGE | AVERAGE(column) | Returns the average of a column. |
+| COUNT | COUNT(column) | Counts the number of values in a column. |
+| COUNTA | COUNTA(column) | Counts non-blank values in a column. |
+| COUNTBLANK | COUNTBLANK(column) | Counts the number of blank values in a column. |
+| DISTINCTCOUNT | DISTINCTCOUNT(column) | Counts the number of distinct values in a column. |
+| MAX | MAX(column) | Returns the maximum value in a column. |
+| MIN | MIN(column) | Returns the minimum value in a column. |
+
+#### Logical Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| IF | IF(condition, true_result, false_result) | Returns values based on a condition. |
+| SWITCH | SWITCH(expression, value1, result1, ..., else_result) | Evaluates multiple conditions and returns matching results. |
+| AND | AND(condition1, condition2) | Returns TRUE if both conditions are met. |
+| OR | OR(condition1, condition2) | Returns TRUE if either condition is met. |
+
+#### Text Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| CONCATENATE | CONCATENATE(text1, text2) | Joins two text strings. |
+| LEFT | LEFT(text, num_chars) | Returns the leftmost characters of a string. |
+| RIGHT | RIGHT(text, num_chars) | Returns the rightmost characters of a string. |
+| MID | MID(text, start_num, num_chars) | Extracts a substring from a string. |
+
+#### Date & Time Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| YEAR | YEAR(date) | Returns the year from a date. |
+| MONTH | MONTH(date) | Returns the month from a date. |
+| DAY | DAY(date) | Returns the day from a date. |
+| DATEDIFF | DATEDIFF(start_date, end_date, unit) | Returns the difference between two dates in specified units. |
+
+#### Time Intelligence Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| TOTALYTD | TOTALYTD(expression, dates) | Evaluates a year-to-date aggregate. |
+| DATESYTD | DATESYTD(dates) | Returns a table of year-to-date dates. |
+| PREVIOUSMONTH | PREVIOUSMONTH(dates) | Returns a table of the previous month’s dates. |
+| SAMEPERIODLASTYEAR | SAMEPERIODLASTYEAR(dates) | Returns a table of dates for the same period in the prior year. |
+
+#### Iterator Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| SUMX | SUMX(table, expression) | Returns the sum of an expression evaluated row by row. |
+| AVERAGEX | AVERAGEX(table, expression) | Returns the average of an expression evaluated row by row. |
+| COUNTX | COUNTX(table, expression) | Counts the number of rows where an expression is not blank. |
+| MAXX | MAXX(table, expression) | Returns the maximum value of an expression evaluated row by row. |
+| MINX | MINX(table, expression) | Returns the minimum value of an expression evaluated row by row. |
+
+#### Filter & Table Functions
+| Function | Syntax | Description |
+|----------|--------|-------------|
+| CALCULATE | CALCULATE(expression, filter) | Modifies filter context for calculations. |
+| FILTER | FILTER(table, condition) | Returns a filtered table. |
+| ALL | ALL(table or column) | Ignores filters applied to a column or table. |
+| RELATED | RELATED(column) | Returns a related value from another table. |
+| VALUES | VALUES(column) | Returns a single-column table of distinct values. |
+
 ### Best Practices
 - Use **measures** instead of **calculated columns** for aggregation to improve performance.
 - Minimize row-by-row calculations to enhance query speed.
@@ -115,33 +256,10 @@ DAX (Data Analysis Expressions) is a formula language used in Power BI for data 
 ### Pro Tips
 - **Master the CALCULATE Function:** It’s fundamental in DAX for modifying filter contexts in calculations.
 - **Use Variables for Complex Calculations:** Declaring variables makes DAX formulas more readable and efficient.
+- **Leverage Time Intelligence Functions:** Use DAX date functions like `DATESYTD`, `PREVIOUSMONTH`, and `SAMEPERIODLASTYEAR` for advanced time-based analysis.
+- **Use Iterator Functions Carefully:** `SUMX`, `AVERAGEX`, and similar functions iterate row by row, which can slow down performance if used excessively.
 
 ---
-
-# Optimizing Power BI Performance
-
-## Performance Tips
-| Optimization Area | Tip |
-|------------------|-----|
-| Data Load | Remove unnecessary columns and rows. |
-| Aggregations | Summarize data before loading into Power BI. |
-| DAX Queries | Minimize row-based calculations. |
-| Query Folding | Push transformations back to the data source. |
-
-### Best Practices
-- Regularly monitor report performance using the **Performance Analyzer** tool.
-- Avoid excessive use of bi-directional relationships as they can slow down queries.
-- Implement incremental data refresh for large datasets to optimize loading times.
-
-### Pro Tips
-- **Monitor and Optimize DAX Queries:** Use DAX Studio to analyze and refine your DAX calculations.
-- **Implement Incremental Data Refresh:** This reduces data load times and improves overall efficiency.
-
----
-
-
-
-
 
 
 # Power BI Reports
